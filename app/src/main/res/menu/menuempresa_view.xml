@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/perfilEmpresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/iconomenuperfil"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/chatsEmpresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/iconomenuchats"
+            android:title="Chats" />
+        <item
+            android:id="@+id/crearPublicacionEmpresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/iconocrearpublicacionempresa"
+            android:title="Crear publicación" />
+        <item
+            android:id="@+id/cerrarSesionEmpresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/common_full_open_on_phone"
+            android:title="Cerrar sesión" />
+
+    </group>
+
+</menu>

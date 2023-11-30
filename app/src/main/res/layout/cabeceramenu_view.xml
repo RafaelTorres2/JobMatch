@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/cabeceramenu"
+    android:gravity="bottom">
+
+    <TextView
+        android:id="@+id/textoUsuarioMenuLateral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your name"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textoEmailMenuLateral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="correo@gmail.com"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoiniciarsesion"
+    tools:context=".ActivityRegistrarse">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="328dp"
+        android:layout_height="576dp"
+        android:background="@drawable/layout_rounded_corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/campoContrasenyaIniciarSesion"
+            android:layout_width="297dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#000000"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#8E8E8E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.448" />
+
+        <EditText
+            android:id="@+id/campoEmailRegistro"
+            android:layout_width="297dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#000000"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textColorHint="#8E8E8E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.287" />
+
+        <EditText
+            android:id="@+id/campoUsuarioRegistro"
+            android:layout_width="297dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#000000"
+            android:ems="10"
+            android:hint="Usuario"
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textColorHint="#8E8E8E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.131" />
+
+        <EditText
+            android:id="@+id/campoRepetirContrasenyaRegistro"
+            android:layout_width="297dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#000000"
+            android:ems="10"
+            android:hint="Repetir contraseña"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#8E8E8E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.608" />
+
+        <TextView
+            android:id="@+id/textoRegistro"
+            android:layout_width="131dp"
+            android:layout_height="24dp"
+            android:text="¿Ya tienes cuenta?"
+            android:textColor="#8E8E8E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.228"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.914" />
+
+        <TextView
+            android:id="@+id/textoIniciarSesionRegistro"
+            android:layout_width="100dp"
+            android:layout_height="24dp"
+            android:text="Iniciar sesion"
+            android:textColor="#00AEFF"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.771"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.913" />
+
+        <Button
+            android:id="@+id/botonIniciarSesion"
+            android:layout_width="259dp"
+            android:layout_height="55dp"
+            android:background="@drawable/rounded_corner"
+            android:text="Registrarme"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.802" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
